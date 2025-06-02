@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chamado de Socorro - SOSLocal</title>
+  <link rel="stylesheet" href="../css/style_chamado.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="logo-soslocal.png" alt="Logo SOSLocal" />
+    </div>
+    <h2>Chamado de Socorro</h2>
+
+    <form class="form">
+      <input type="text" placeholder="Nome Completo" required />
+      <input type="text" placeholder="CPF" required />
+      
+      <select required>
+        <option value="" disabled selected>Ocorrência</option>
+        <option value="terremoto">Terremoto</option>
+        <option value="incêndio">Incêndio</option>
+        <option value="enchente">Enchente</option>
+        <option value="outro">Outro</option>
+      </select>
+
+      <textarea placeholder="Descrição (onde está? O que está acontecendo?)" rows="10"></textarea>
+
+      <a class="botao_envia" href="envio.html">📍 Compartilhar localização</a>
+    </form>
+  </div>
+</body>
+</html>
