@@ -13,11 +13,11 @@
     </div>
     <h2>Chamado de Socorro</h2>
 
-    <form class="form">
-      <input type="text" placeholder="Nome Completo" required />
-      <input type="text" placeholder="CPF" required />
+    <form class="form" id="form-sos">
+      <input type="text" id="nome" placeholder="Nome Completo" required />
+      <input type="text" id="cpf" placeholder="CPF" required />
       
-      <select required>
+      <select id="ocorrencia" required>
         <option value="" disabled selected>Ocorrência</option>
         <option value="terremoto">Terremoto</option>
         <option value="incêndio">Incêndio</option>
@@ -25,10 +25,11 @@
         <option value="outro">Outro</option>
       </select>
 
-      <textarea placeholder="Descrição (onde está? O que está acontecendo?)" rows="10"></textarea>
+      <textarea id="descricao" placeholder="Descrição (onde está? O que está acontecendo?)" rows="10" required></textarea>
 
-      <a class="botao_envia" href="envio.html">📍 Compartilhar localização</a>
+      <button type="submit" class="botao_envia">📍 Compartilhar localização</button>
     </form>
+    <script src="validaFormulario.js"></script>
   </div>
 </body>
 </html>
