@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  background: white;
+  width: 500px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.mensagem p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.texto_suporte {
+  margin-top: 5rem;
+  margin-bottom: 10px;
+}
+
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+}
+
+.botao:hover {
+  opacity: 0.9;
+}
+
+.suporte {
+  background: linear-gradient(to bottom, #f87171, #dc2626);
+  color: white;
+  margin-top: 2px;
+}
+
+.equipes {
+  background: linear-gradient(to bottom, #d1d5db, #9ca3af);
+  color: #ffffff;
+}
