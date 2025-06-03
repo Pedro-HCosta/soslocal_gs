@@ -30,6 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     alert("Formulário enviado com sucesso!");
-    window.location.href = "envio.html";
+    window.location.href = "../html/envio.html";
   });
 });
