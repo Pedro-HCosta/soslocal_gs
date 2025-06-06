@@ -21,46 +21,34 @@ body {
   margin-bottom: 20px;
 }
 
-h2 {
-  font-size: 18px;
-  color: #444;
-  margin-bottom: 24px;
+.imagens {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
 }
 
-p {
-  font-size: 16px;
-  color: #333;
-  margin-bottom: 12px;
+.i {
+    flex: 1 1 300px;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
 }
 
-.botao {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 16px;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 12px;
-  margin-top: 20px;
-  cursor: pointer;
-  transition: opacity 0.2s ease;
-  text-decoration: none;
-}
-.botao:hover {
-  opacity: 0.9;
+.i img {
+    width: 75%;
+    height: 80%;
 }
 
-.emergencia {
-  background: linear-gradient(to bottom, #f87171, #dc2626);
-  color: white;
+.pedro {
+    background: linear-gradient(to bottom, #f87171, #dc2626);
 }
 
-.equipes {
-  background: linear-gradient(to bottom, #d1d5db, #9ca3af);
-  color: #ffffff;
+.leticia     {
+    background: linear-gradient(to bottom, #dc2626, #f87171);
 }
 
 .botoes {
